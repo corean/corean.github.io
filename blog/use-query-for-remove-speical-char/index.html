@@ -6,21 +6,21 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="개발관련 이야기 ">
 
-        <meta property="og:title" content="corean&#039;s works"/>
+        <meta property="og:title" content="sql 줄바꿈 삭제 | corean&#039;s works"/>
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://corean.github.io/blog/4"/>
+        <meta property="og:url" content="https://corean.github.io/blog/use-query-for-remove-speical-char"/>
         <meta property="og:description" content="개발관련 이야기 " />
 
-        <title>corean&#039;s works</title>
+        <title>corean&#039;s works | sql 줄바꿈 삭제</title>
 
         <link rel="home" href="https://corean.github.io">
         <link rel="icon" href="/favicon.ico">
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="corean&#039;s works Atom Feed">
 
-            <meta property="og:title" content="corean&#039;s works Blog" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://corean.github.io/blog/4"/>
-    <meta property="og:description" content="The list of blog posts for corean&#039;s works" />
+            <meta property="og:title" content="sql 줄바꿈 삭제" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://corean.github.io/blog/use-query-for-remove-speical-char"/>
+    <meta property="og:description" content="\r 일괄삭제하는 쿼리" />
 
                     <!-- Insert analytics code here -->
         
@@ -106,127 +106,31 @@
 </nav>
 
         <main role="main" class="flex-auto w-full container max-w-xl mx-auto py-16 px-6">
-                <h1>Blog</h1>
+                
+    <h1 class="leading-none mb-2">sql 줄바꿈 삭제</h1>
 
-    <hr class="border-b my-6">
+    <p class="text-grey-dark text-xl md:mt-0">2019-01-21</p>
 
-            <div class="flex flex-col mb-4">
-    <p class="text-grey-darker font-medium my-2">
-        2018-03-24 
-    </p>
+    
+    <div class="border-b border-blue-lighter mb-10 pb-4" v-pre>
+        <p>엑셀 데이타를 mysql에 붙여넣기 했을때 carriage return 일괄 삭제</p>
+<pre><code class="language-mysql">update fair_sdm_gallery set tags = replace(tags, char(13), '');
+char(9) TAB
+char(10) LF
+char(13) CR 
+\r\n 개행문자</code></pre>    </div>
 
-    <h2 class="text-3xl mt-0">
-        <a
-            href="https://corean.github.io/blog/2018-03-links"
-            title="Read more - 2018년 3월 링크모음"
-            class="text-grey-darker font-extrabold"
-        >2018년 3월 링크모음</a>
-    </h2>
+    <nav class="flex justify-between text-sm md:text-base">
+        <div>
+                            <a href="https://corean.github.io/blog/phpstorm-route-declaration" title="Older Post: PhpStorm에서 route내에서 ​Declaration 작동하지 않을때 해결책">
+                    &LeftArrow; PhpStorm에서 route내에서 ​Declaration 작동하지 않을때 해결책
+                </a>
+                    </div>
 
-    <p class="mb-4 mt-0">
-
-Learn Bootstrap 4 in 5 minutes – freeCodeCamp
-Laravel API Resources — Under the hood! – Syed Sirajul Islam Anik – Medium
-Laravel — Event &amp; Queue – Syed Sirajul Islam Anik –...</p>
-
-    <a
-        href="https://corean.github.io/blog/2018-03-links"
-        title="Read more - 2018년 3월 링크모음"
-        class="uppercase font-semibold tracking-wide mb-2"
-    >Read</a>
-</div>
-
-                    <hr class="border-b my-6">
-                    <div class="flex flex-col mb-4">
-    <p class="text-grey-darker font-medium my-2">
-        2018-01-05 
-    </p>
-
-    <h2 class="text-3xl mt-0">
-        <a
-            href="https://corean.github.io/blog/2018-01-links"
-            title="Read more - 2018년 1월 링크모음"
-            class="text-grey-darker font-extrabold"
-        >2018년 1월 링크모음</a>
-    </h2>
-
-    <p class="mb-4 mt-0">
-
-
-
-
-Generate beautiful RESTful Laravel API documentation with Swagger
-Primer: Laravel 5.5, Tailwind 0.2 and PurgeCSS bliss
-Baby come back... How To Configure A New Laravel 5.5 Project - Nick Basile...</p>
-
-    <a
-        href="https://corean.github.io/blog/2018-01-links"
-        title="Read more - 2018년 1월 링크모음"
-        class="uppercase font-semibold tracking-wide mb-2"
-    >Read</a>
-</div>
-
-                    <hr class="border-b my-6">
-                    <div class="flex flex-col mb-4">
-    <p class="text-grey-darker font-medium my-2">
-        2017-09-07 
-    </p>
-
-    <h2 class="text-3xl mt-0">
-        <a
-            href="https://corean.github.io/blog/2017-08-links"
-            title="Read more - 2017년 8월 링크모음"
-            class="text-grey-darker font-extrabold"
-        >2017년 8월 링크모음</a>
-    </h2>
-
-    <p class="mb-4 mt-0">
-
-Two Best Laravel Packages to Manage Roles/Permissions - Laravel News
-
-Laravel-permission - github’s top stars
-
-spatie/laravel-permission: Associate users with roles and permissions
-GitHub -...</p>
-
-    <a
-        href="https://corean.github.io/blog/2017-08-links"
-        title="Read more - 2017년 8월 링크모음"
-        class="uppercase font-semibold tracking-wide mb-2"
-    >Read</a>
-</div>
-
-            
-            <nav class="flex text-base my-8">
-                            <a
-                    href="/blog/3"
-                    title="Previous Page"
-                    class="bg-grey-lighter hover:bg-grey-light rounded mr-3 px-5 py-3"
-                >&LeftArrow;</a>
-            
-                            <a
-                    href="/blog"
-                    title="Go to Page 1"
-                    class="bg-grey-lighter hover:bg-grey-light  rounded mr-3 px-5 py-3 text-grey-dark"
-                >1</a>
-                            <a
-                    href="/blog/2"
-                    title="Go to Page 2"
-                    class="bg-grey-lighter hover:bg-grey-light  rounded mr-3 px-5 py-3 text-grey-dark"
-                >2</a>
-                            <a
-                    href="/blog/3"
-                    title="Go to Page 3"
-                    class="bg-grey-lighter hover:bg-grey-light  rounded mr-3 px-5 py-3 text-grey-dark"
-                >3</a>
-                            <a
-                    href="/blog/4"
-                    title="Go to Page 4"
-                    class="bg-grey-lighter hover:bg-grey-light  rounded mr-3 px-5 py-3 text-grey-darker"
-                >4</a>
-            
-                    </nav>
-            </main>
+        <div>
+                    </div>
+    </nav>
+        </main>
 
         <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center list-reset">
