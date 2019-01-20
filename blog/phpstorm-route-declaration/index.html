@@ -6,21 +6,21 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="개발관련 이야기 ">
 
-        <meta property="og:title" content="corean&#039;s works"/>
+        <meta property="og:title" content="PhpStorm에서 route내에서 ​Declaration 작동하지 않을때 해결책 | corean&#039;s works"/>
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://corean.github.io/blog/4"/>
+        <meta property="og:url" content="https://corean.github.io/blog/phpstorm-route-declaration"/>
         <meta property="og:description" content="개발관련 이야기 " />
 
-        <title>corean&#039;s works</title>
+        <title>corean&#039;s works | PhpStorm에서 route내에서 ​Declaration 작동하지 않을때 해결책</title>
 
         <link rel="home" href="https://corean.github.io">
         <link rel="icon" href="/favicon.ico">
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="corean&#039;s works Atom Feed">
 
-            <meta property="og:title" content="corean&#039;s works Blog" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://corean.github.io/blog/4"/>
-    <meta property="og:description" content="The list of blog posts for corean&#039;s works" />
+            <meta property="og:title" content="PhpStorm에서 route내에서 ​Declaration 작동하지 않을때 해결책" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://corean.github.io/blog/phpstorm-route-declaration"/>
+    <meta property="og:description" content="전에는 route에서 Command+B(Declaration)을 통해 이동을 했었는데 최근에는 안될때" />
 
                     <!-- Insert analytics code here -->
         
@@ -106,100 +106,55 @@
 </nav>
 
         <main role="main" class="flex-auto w-full container max-w-xl mx-auto py-16 px-6">
-                <h1>Blog</h1>
+                        <img src="/assets/img/route-declaration.png" alt="PhpStorm에서 route내에서 ​Declaration 작동하지 않을때 해결책 cover image" class="mb-2">
+    
+    <h1 class="leading-none mb-2">PhpStorm에서 route내에서 ​Declaration 작동하지 않을때 해결책</h1>
 
-    <hr class="border-b my-6">
+    <p class="text-grey-dark text-xl md:mt-0">2019-01-14</p>
 
-            <div class="flex flex-col mb-4">
-    <p class="text-grey-darker font-medium my-2">
-        2018-01-05 
-    </p>
+    
+    <div class="border-b border-blue-lighter mb-10 pb-4" v-pre>
+        <pre><code class="language-php">    /**
+     *
+     *
+//     * @method static \Illuminate\Support\Facades\Route get(string $uri, \Closure|array|string|null $action = null)
+//     * @method static \Illuminate\Support\Facades\Route post(string $uri, \Closure|array|string|null $action = null)
+//     * @method static \Illuminate\Support\Facades\Route put(string $uri, \Closure|array|string|null $action = null)
+//     * @method static \Illuminate\Support\Facades\Route delete(string $uri, \Closure|array|string|null $action = null)
+//     * @method static \Illuminate\Support\Facades\Route patch(string $uri, \Closure|array|string|null $action = null)
+//     * @method static \Illuminate\Support\Facades\Route options(string $uri, \Closure|array|string|null $action = null)
+//     * @method static \Illuminate\Support\Facades\Route any(string $uri, \Closure|array|string|null $action = null)
+//     * @method static \Illuminate\Support\Facades\Route match(array|string $methods, string $uri, \Closure|array|string|null $action = null)
+//     * @method static \Illuminate\Support\Facades\Route prefix(string  $prefix)
+     * @method static \Illuminate\Routing\PendingResourceRegistration resource(string $name, string $controller, array $options = [])
+     * @method static \Illuminate\Routing\PendingResourceRegistration apiResource(string $name, string $controller, array $options = [])
+//     * @method static \Illuminate\Support\Facades\Route middleware(array|string|null $middleware)
+     * @method static \Illuminate\Support\Facades\Route substituteBindings(\Illuminate\Support\Facades\Route $route)
+//     * @method static void substituteImplicitBindings(\Illuminate\Support\Facades\Route $route)
+//     * @method static \Illuminate\Support\Facades\Route as(string $value)
+//     * @method static \Illuminate\Support\Facades\Route domain(string $value)
+//     * @method static \Illuminate\Support\Facades\Route name(string $value)
+//     * @method static \Illuminate\Support\Facades\Route namespace(string $value)
+//     * @method static \Illuminate\Support\Facades\Route where(array|string $name, string $expression = null)
+     * @method static \Illuminate\Routing\Router group(\Closure|string|array $value, \Closure|string $routes)
+//     * @method static \Illuminate\Support\Facades\Route redirect(string $uri, string $destination, int $status = 301)
+//     * @method static \Illuminate\Support\Facades\Route view(string $uri, string $view, array $data = [])
+     * @see \Illuminate\Routing\Router
+     */</code></pre>
+<p>_ide_helper.php:9441 주석 처리</p>
+<p>참고링크: <a href="https://github.com/barryvdh/laravel-ide-helper/issues/708">Does not work with laravel 5.7?</a></p>    </div>
 
-    <h2 class="text-3xl mt-0">
-        <a
-            href="https://corean.github.io/blog/2018-01-links"
-            title="Read more - 2018년 1월 링크모음"
-            class="text-grey-darker font-extrabold"
-        >2018년 1월 링크모음</a>
-    </h2>
+    <nav class="flex justify-between text-sm md:text-base">
+        <div>
+                            <a href="https://corean.github.io/blog/2019-01-links" title="Older Post: 2019년 1월 링크모음">
+                    &LeftArrow; 2019년 1월 링크모음
+                </a>
+                    </div>
 
-    <p class="mb-4 mt-0">
-
-
-
-
-Generate beautiful RESTful Laravel API documentation with Swagger
-Primer: Laravel 5.5, Tailwind 0.2 and PurgeCSS bliss
-Baby come back... How To Configure A New Laravel 5.5 Project - Nick Basile...</p>
-
-    <a
-        href="https://corean.github.io/blog/2018-01-links"
-        title="Read more - 2018년 1월 링크모음"
-        class="uppercase font-semibold tracking-wide mb-2"
-    >Read</a>
-</div>
-
-                    <hr class="border-b my-6">
-                    <div class="flex flex-col mb-4">
-    <p class="text-grey-darker font-medium my-2">
-        2017-09-07 
-    </p>
-
-    <h2 class="text-3xl mt-0">
-        <a
-            href="https://corean.github.io/blog/2017-08-links"
-            title="Read more - 2017년 8월 링크모음"
-            class="text-grey-darker font-extrabold"
-        >2017년 8월 링크모음</a>
-    </h2>
-
-    <p class="mb-4 mt-0">
-
-Two Best Laravel Packages to Manage Roles/Permissions - Laravel News
-
-Laravel-permission - github’s top stars
-
-spatie/laravel-permission: Associate users with roles and permissions
-GitHub -...</p>
-
-    <a
-        href="https://corean.github.io/blog/2017-08-links"
-        title="Read more - 2017년 8월 링크모음"
-        class="uppercase font-semibold tracking-wide mb-2"
-    >Read</a>
-</div>
-
-            
-            <nav class="flex text-base my-8">
-                            <a
-                    href="/blog/3"
-                    title="Previous Page"
-                    class="bg-grey-lighter hover:bg-grey-light rounded mr-3 px-5 py-3"
-                >&LeftArrow;</a>
-            
-                            <a
-                    href="/blog"
-                    title="Go to Page 1"
-                    class="bg-grey-lighter hover:bg-grey-light  rounded mr-3 px-5 py-3 text-grey-dark"
-                >1</a>
-                            <a
-                    href="/blog/2"
-                    title="Go to Page 2"
-                    class="bg-grey-lighter hover:bg-grey-light  rounded mr-3 px-5 py-3 text-grey-dark"
-                >2</a>
-                            <a
-                    href="/blog/3"
-                    title="Go to Page 3"
-                    class="bg-grey-lighter hover:bg-grey-light  rounded mr-3 px-5 py-3 text-grey-dark"
-                >3</a>
-                            <a
-                    href="/blog/4"
-                    title="Go to Page 4"
-                    class="bg-grey-lighter hover:bg-grey-light  rounded mr-3 px-5 py-3 text-grey-darker"
-                >4</a>
-            
-                    </nav>
-            </main>
+        <div>
+                    </div>
+    </nav>
+        </main>
 
         <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center list-reset">
