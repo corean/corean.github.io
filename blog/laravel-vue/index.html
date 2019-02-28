@@ -6,21 +6,21 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="개발관련 이야기 ">
 
-        <meta property="og:title" content="sql 줄바꿈 삭제 | corean&#039;s works"/>
+        <meta property="og:title" content="Laravel + Vue look like SPA | corean&#039;s works"/>
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://corean.github.io/blog/use-query-for-remove-speical-char"/>
+        <meta property="og:url" content="https://corean.github.io/blog/laravel-vue"/>
         <meta property="og:description" content="개발관련 이야기 " />
 
-        <title>corean&#039;s works | sql 줄바꿈 삭제</title>
+        <title>corean&#039;s works | Laravel + Vue look like SPA</title>
 
         <link rel="home" href="https://corean.github.io">
         <link rel="icon" href="/favicon.ico">
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="corean&#039;s works Atom Feed">
 
-            <meta property="og:title" content="sql 줄바꿈 삭제" />
+            <meta property="og:title" content="Laravel + Vue look like SPA" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://corean.github.io/blog/use-query-for-remove-speical-char"/>
-    <meta property="og:description" content="\r 일괄삭제하는 쿼리" />
+    <meta property="og:url" content="https://corean.github.io/blog/laravel-vue"/>
+    <meta property="og:description" content="Larave + Vue 로 SinglePageApplication 처럼 보이게 하기" />
 
                     <!-- Insert analytics code here -->
         
@@ -107,29 +107,101 @@
 
         <main role="main" class="flex-auto w-full container max-w-xl mx-auto py-16 px-6">
                 
-    <h1 class="leading-none mb-2">sql 줄바꿈 삭제</h1>
+    <h1 class="leading-none mb-2">Laravel + Vue look like SPA</h1>
 
-    <p class="text-grey-dark text-xl md:mt-0">2019-01-21</p>
+    <p class="text-grey-dark text-xl md:mt-0">2019-02-11</p>
 
     
     <div class="border-b border-blue-lighter mb-10 pb-4" v-pre>
-        <p>엑셀 데이타를 mysql에 붙여넣기 했을때 carriage return 일괄 삭제</p>
-<pre><code class="language-mysql">update fair_sdm_gallery set tags = replace(tags, char(13), '');
-char(9) TAB
-char(10) LF
-char(13) CR 
-\r\n 개행문자</code></pre>    </div>
+        <h1></h1>
+<p><a href="https://reinink.ca/articles/server-side-apps-with-client-side-rendering">Server-side apps with client-side rendering - Jonathan Reinink</a></p>
+<ol>
+<li>blade 템플릿 + 각 기능별 vue 컴포넌트 : 너무 난해짐</li>
+<li>빈 html + 1개의 단일 vue 컴포넌트 : api가 많아짐</li>
+<li>vue 컴포넌트 모두 등록후
+controller에서 response::make를 통해 app.blade.php에 사용할 컴포넌트 이름과 데이타(props)를 넘겨 주는 방식
+장점: API 없이 시작할 수 있다. 구조가 단순해진다.</li>
+</ol>
+<pre><code class="language-bash">// SPA처럼 작동하게 해준다.
+npm install --save-dev turbolinks</code></pre>
+<pre><code class="language-php">// AppServiceProvider::boot 등록  
+use Illuminate\View\Factory as ViewFactory;
+
+ViewFactory::macro('component', function ($name, $data = []) {
+    return View::make('app', ['name' =&gt; $name, 'data' =&gt; $data]);
+});</code></pre>
+<pre><code class="language-php+HTML">&lt;!-- app.blade.php --&gt;
+&lt;!DOCTYPE html&gt; 
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;link href="{{ mix('/css/app.css') }}" rel="stylesheet"&gt;
+    &lt;script src="{{ mix('/js/manifest.js') }}" defer&gt;&lt;/script&gt;
+    &lt;script src="{{ mix('/js/vendor.js') }}" defer&gt;&lt;/script&gt;
+    &lt;script src="{{ mix('/js/app.js') }}" defer&gt;&lt;/script&gt;
+    &lt;meta name="turbolinks-cache-control" content="no-cache"&gt;
+    &lt;!-- turbolinks 비활성화. 브라우저 이동시 vue 인스턴스를 만들어야함 --&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div id="app" data-component="{{ $name }}" data-props="{{ json_encode($data) }}"&gt;&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<pre><code class="language-php">// Controller
+$events = Event::oldest('start_date')
+    -&gt;get()
+    -&gt;map-&gt;only('id', 'title', 'start_date');
+
+return View::component('Events', ['events' =&gt; $events]);</code></pre>
+<pre><code class="language-javascript">// app.js
+import Vue from 'vue'
+
+// 모든 컴포넌트 등록
+const files = require.context('./', true, /\.vue$/i)
+files.keys().map(key =&gt; Vue.component(key.split('/').pop().split('.')[0], files(key).default))
+
+// Start Turbolinks
+require('turbolinks').start()
+
+// Boot the Vue component
+document.addEventListener('turbolinks:load', (event) =&gt; {
+    const root = document.getElementById('app')
+
+    if (window.vue) {
+        window.vue.$destroy(true)
+    }
+    //vue runtime만 사용
+    window.vue = new Vue({
+        render: h =&gt; h(
+            Vue.component(root.dataset.component), {
+                props: JSON.parse(root.dataset.props)
+            }
+        )
+    }).$mount(root)
+})</code></pre>
+<pre><code class="language-javascript">//webpack.mix.js - vue runtime만 사용
+mix.js('resources/js/app.js', 'public/js')
+   .sass('resources/sass/app.scss', 'public/css')
+   .extract(['vue', 'lodash', 'popper.js', 'axios'])
+   .webpackConfig({
+       resolve: {
+           alias: { 'vue$': 'vue/dist/vue.runtime.js' }
+       }
+   })
+   .version()</code></pre>    </div>
 
     <nav class="flex justify-between text-sm md:text-base">
         <div>
-                            <a href="https://corean.github.io/blog/phpstorm-route-declaration" title="Older Post: PhpStorm에서 route내에서 ​Declaration 작동하지 않을때 해결책">
-                    &LeftArrow; PhpStorm에서 route내에서 ​Declaration 작동하지 않을때 해결책
+                            <a href="https://corean.github.io/blog/vue" title="Older Post: Vue Cleanup">
+                    &LeftArrow; Vue Cleanup
                 </a>
                     </div>
 
         <div>
-                            <a href="https://corean.github.io/blog/vue" title="Newer Post: Vue Cleanup">
-                    Vue Cleanup &RightArrow;
+                            <a href="https://corean.github.io/blog/2019-02-links" title="Newer Post: 2019년 2월 링크모음">
+                    2019년 2월 링크모음 &RightArrow;
                 </a>
                     </div>
     </nav>

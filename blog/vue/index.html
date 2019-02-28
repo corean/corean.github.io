@@ -6,21 +6,21 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="개발관련 이야기 ">
 
-        <meta property="og:title" content="sql 줄바꿈 삭제 | corean&#039;s works"/>
+        <meta property="og:title" content="Vue Cleanup | corean&#039;s works"/>
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://corean.github.io/blog/use-query-for-remove-speical-char"/>
+        <meta property="og:url" content="https://corean.github.io/blog/vue"/>
         <meta property="og:description" content="개발관련 이야기 " />
 
-        <title>corean&#039;s works | sql 줄바꿈 삭제</title>
+        <title>corean&#039;s works | Vue Cleanup</title>
 
         <link rel="home" href="https://corean.github.io">
         <link rel="icon" href="/favicon.ico">
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="corean&#039;s works Atom Feed">
 
-            <meta property="og:title" content="sql 줄바꿈 삭제" />
+            <meta property="og:title" content="Vue Cleanup" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://corean.github.io/blog/use-query-for-remove-speical-char"/>
-    <meta property="og:description" content="\r 일괄삭제하는 쿼리" />
+    <meta property="og:url" content="https://corean.github.io/blog/vue"/>
+    <meta property="og:description" content="Vue 공부하면서 정리해 둔 것 (계속 업데이트)" />
 
                     <!-- Insert analytics code here -->
         
@@ -107,29 +107,41 @@
 
         <main role="main" class="flex-auto w-full container max-w-xl mx-auto py-16 px-6">
                 
-    <h1 class="leading-none mb-2">sql 줄바꿈 삭제</h1>
+    <h1 class="leading-none mb-2">Vue Cleanup</h1>
 
-    <p class="text-grey-dark text-xl md:mt-0">2019-01-21</p>
+    <p class="text-grey-dark text-xl md:mt-0">2019-02-07</p>
 
     
     <div class="border-b border-blue-lighter mb-10 pb-4" v-pre>
-        <p>엑셀 데이타를 mysql에 붙여넣기 했을때 carriage return 일괄 삭제</p>
-<pre><code class="language-mysql">update fair_sdm_gallery set tags = replace(tags, char(13), '');
-char(9) TAB
-char(10) LF
-char(13) CR 
-\r\n 개행문자</code></pre>    </div>
+        <h1>Vue</h1>
+<h2>syntax</h2>
+<p><code>v-bind:class="className"</code> = <code>:class="className"</code></p>
+<p><code>v-on:click="addName"</code> = <code>@click"Addname"</code></p>
+<p><code>:class="{ 'isLoading' : isLoading }"</code> 선택적 css. 데이타가 아닌 표현식은 {}</p>
+<pre><code class="language-javascript">// 계산된 속성 (=데이타처럼 취급)
+computed: {
+    incompleteTasks() {
+        return this.tasks.filter(task =&gt; !task.completed );
+    },
+},</code></pre>
+<p>Vue.component는 vue instance 전에 나와야 함.</p>
+<p>named slot 사용</p>
+<pre><code class="language-vue">&lt;template slot="header"&gt;My Title&lt;/template&gt;
+&lt;slot name="header"&gt;&lt;/slot&gt;</code></pre>
+<h2>Error Message</h2>
+<p><code>Avoid mutating a prop directly since the value will be overwritten whenever the parent component re-renders. Instead, use a data or computed property based on the prop's value. Prop being mutated: "selected"</code></p>
+<p>props로 받은 상위 데이타는 직접 수정할수 없는. data()나 computed()속성을 이용해서 처리 할 것.</p>    </div>
 
     <nav class="flex justify-between text-sm md:text-base">
         <div>
-                            <a href="https://corean.github.io/blog/phpstorm-route-declaration" title="Older Post: PhpStorm에서 route내에서 ​Declaration 작동하지 않을때 해결책">
-                    &LeftArrow; PhpStorm에서 route내에서 ​Declaration 작동하지 않을때 해결책
+                            <a href="https://corean.github.io/blog/use-query-for-remove-speical-char" title="Older Post: sql 줄바꿈 삭제">
+                    &LeftArrow; sql 줄바꿈 삭제
                 </a>
                     </div>
 
         <div>
-                            <a href="https://corean.github.io/blog/vue" title="Newer Post: Vue Cleanup">
-                    Vue Cleanup &RightArrow;
+                            <a href="https://corean.github.io/blog/laravel-vue" title="Newer Post: Laravel + Vue look like SPA">
+                    Laravel + Vue look like SPA &RightArrow;
                 </a>
                     </div>
     </nav>

@@ -3,12 +3,304 @@
     <title>corean&#039;s works</title>
     <link href="https://corean.github.io" />
     <link type="application/atom+xml" rel="self" href="https://corean.github.io/blog/feed.atom" />
-    <updated>2019-01-20T17:59:19+00:00</updated>
+    <updated>2019-02-28T16:45:22+00:00</updated>
     <id>https://corean.github.io/blog/feed.atom</id>
     <author>
         <name>corean</name>
     </author>
                 <entry>
+    <id>https://corean.github.io/blog/2019-02-links</id>
+    <link type="text/html" rel="alternate" href="https://corean.github.io/blog/2019-02-links" />
+    <title>2019년 2월 링크모음</title>
+    <published>2019-02-28T00:00:00+00:00</published>
+    <updated>2019-02-28T00:00:00+00:00</updated>
+    <author>
+        <name>corean</name>
+    </author>
+    <summary type="html">
+Laravel Rest API Passport Authentication for Ionic App Laravel Passport를 이용한 기본적인  인증처리. 간단하게 토큰방식(bearer) 로그인하는 강좌 실습
+
+
+
+라라벨의 엘로퀀트 ORM에서 값 객체 사용하기 |......</summary>
+    <content type="html"><![CDATA[
+        <ul>
+<li><a href="https://medium.com/@flicher/laravel-rest-api-passport-authentication-for-ionic-app-3934713bcdf7">Laravel Rest API Passport Authentication for Ionic App</a> Laravel Passport를 이용한 기본적인  인증처리. 간단하게 토큰방식(bearer) 로그인하는 강좌 실습</li>
+</ul>
+<h2>Backend</h2>
+<ul>
+<li><a href="https://blog.appkr.kr/work-n-play/how-to-use-value-object-in-laravel-eloquent/">라라벨의 엘로퀀트 ORM에서 값 객체 사용하기 | Appkr.memo(new Life)</a> ★</li>
+<li><a href="https://alex.bouma.me/installing-laravel-websockets-on-forge/">Laravel Websockets on Forge</a></li>
+<li><a href="https://chrisblackwell.me/generate-perfect-initials-using-php/">Generate Perfect Initials using PHP - Chris Blackwell</a></li>
+<li><a href="https://codersdiaries.com/pass-data-laravel-vue/">How to pass data from Laravel to Vue (the simple way) – Coders diaries</a></li>
+<li><a href="https://dev.to/tuandm/laravel--vuejs--laravue---a-beautiful-dashboard-for-laravel-3h11">Laravue - a beautiful dashboard for Laravel - DEV Community</a></li>
+<li><a href="https://github.com/ModernPUG/meetup">ModernPUG/meetup: Modern PHP User Group 정기모임 발표 자료</a></li>
+<li><a href="https://github.com/stancl/tenancy">stancl/tenancy: A Laravel multi-database tenancy implementation that respects your code.</a></li>
+<li><a href="https://github.com/stechstudio/laravel-visual-testing">stechstudio/laravel-visual-testing: Visual UI screenshot testing with Laravel Dusk using percy.io</a></li>
+<li><a href="https://github.com/ratiw/vuetable-2-with-laravel-5.4/blob/master/readme.md">vuetable-2-with-laravel-5.4/readme.md at master · ratiw/vuetable-2-with-laravel-5.4</a></li>
+<li><a href="https://github.com/WhereIsLucas/laravel-bootstrap-toasts">WhereIsLucas/laravel-bootstrap-toasts: Bootstrap Toast made easy for Laravel</a></li>
+<li><a href="https://github.com/writingink/wink/blob/master/readme.md">wink/readme.md at master · writingink/wink</a></li>
+<li><a href="https://gist.github.com/poing/c6d54614beabbbb1fd0f96d28a3288d2">Laravel Facades</a></li>
+<li><a href="https://laracasts.com/series/whats-new-in-laravel-5-7">Laracasts: What's New in Laravel 5.7</a></li>
+<li><a href="https://www.laraning.com/series/laraning-socialite">Laraning</a></li>
+<li><a href="https://www.larashout.com/8-laravel-helpers-i-use-everyday">8 Laravel Helpers I Use Everyday | LaraShout</a></li>
+<li><a href="https://www.larashout.com/creating-custom-facades-in-laravel">Creating Custom Facades in Laravel | LaraShout</a></li>
+<li><a href="https://www.larashout.com/eloquent-touch-for-models-in-laravel">Eloquent Touch for Models in Laravel | LaraShout</a></li>
+<li><a href="https://www.larashout.com/how-to-use-repository-pattern-in-laravel">How to use Repository Pattern in Laravel | LaraShout</a></li>
+<li><a href="https://www.larashout.com/solid-design-principles-in-php">Solid Design Principles in PHP | LaraShout</a></li>
+<li><a href="https://www.larashout.com/using-joins-in-laravel-eloquent-queries">Using Joins in Laravel Eloquent Queries | LaraShout</a></li>
+<li><a href="https://laravel-news.com/5-laravel-helpers-make-life-easier">5 Laravel Helpers to Make Your Life Easier - Laravel News</a></li>
+<li><a href="https://laravel-news.com/data-driven-testing-phpunit">Data-driven testing with PHPUnit - Laravel News</a></li>
+<li><a href="https://laravel-news.com/laravel-news-meets-tailwind-css">Laravel News Meets Tailwind CSS - Laravel News</a></li>
+<li><a href="https://laravel-news.com/tableplus-database-gui">TablePlus Relational Database GUI - Laravel News</a></li>
+<li><a href="https://laravel-news.com/testing-length-validation-laravel">Testing Length Validation in Laravel - Laravel News</a></li>
+<li><a href="http://laravel-school.com/posts/building-a-delighted-restful-api-with-laravel-16">Building a delighted RESTful API with Laravel - Laravel School</a></li>
+<li><a href="https://laraveldaily.com/demo-project-managing-timezones-for-every-user-in-laravel/">Demo-Project: Managing Timezones for Every User in Laravel - Laravel Daily</a></li>
+<li><a href="https://laraveldaily.com/embed-and-parse-youtube-vimeo-videos-with-laravel-embed-package/">Embed and Parse Youtube/Vimeo Videos with Laravel Embed Package - Laravel Daily</a></li>
+<li><a href="https://laraveldaily.com/laravel-api-errors-and-exceptions-how-to-return-responses/">Laravel API Errors and Exceptions: How to Return Responses - Laravel Daily</a></li>
+<li><a href="https://laraveldaily.com/laravel-find-addresses-with-coordinates-via-google-maps-api/">Laravel: Find Addresses with Coordinates via Google Maps API - Laravel Daily</a></li>
+<li><a href="https://laraveldaily.com/multi-language-routes-and-locales-with-auth/">Multi-Language Routes and Locales with Auth - Laravel Daily</a></li>
+<li><a href="https://laraveldaily.com/nested-resource-controllers-and-routes-laravel-crud-example/">Nested Resource Controllers and Routes: Laravel CRUD Example - Laravel Daily</a></li>
+<li><a href="https://laraveldaily.com/working-with-mysql-json-columns-in-laravel-custom-properties-example/">Working with MySQL JSON Columns in Laravel: Custom Properties Example - Laravel Daily</a></li>
+<li><a href="https://leehyunseok.com/?p=3273">라라벨 제작자가 추천한 라라벨 코드 깔끔하게 짜는 방법 초간단 요약 – 이현석의 우체통</a></li>
+<li><a href="https://murze.be/tools-to-automatically-format-php-javascript-and-css-files">Tools to automatically format PHP, JavaScript and CSS files - Freek Van der Herten's blog on PHP and Laravel</a></li>
+<li><a href="https://blog.sarfas.codes/managing-filters-in-laravel/">Managing Filters in Laravel – Oliver Sarfas</a></li>
+<li><a href="https://www.tutsmake.com/laravel-5-7-create-first-ajax-crud-application/">Laravel 5.7 Create First Ajax CRUD Application - Tuts Make</a></li>
+<li><a href="https://www.tutsmake.com/laravel-datatables-custom-filter-and-search-example/">Laravel Datatables Custom filter and Search Example - Tuts Make</a></li>
+<li><a href="https://www.tutsmake.com/laravel-5-7-form-validation-using-jquery/">Simple Laravel 5.7 Form Validation Using Jquery - Tuts Make</a></li>
+<li><a href="https://medium.com/devopslinks/configure-laravel-properly-for-ci-cd-6f9965034108">Configure Laravel properly for CI/CD – DevOpsLinks – Medium</a></li>
+<li><a href="https://medium.com/mh-mohon/create-real-time-component-using-laravel-echo-pusher-vue-js-b6ac35a0f13b">Create Real-Time Component using Laravel Echo, Pusher &amp; Vue.js</a></li>
+<li><a href="https://medium.com/@welcm/custom-error-pages-in-laravel-49ce8f56122">Custom Error Pages in Laravel – Welcm – Medium</a></li>
+<li><a href="https://medium.com/@destinyajakaiye_33285/how-to-build-modular-applications-in-laravel-the-plug-n-play-approach-part-1-13a87f7de06">How To Build Modular Applications In Laravel: The Plug N Play Approach — Part 1</a></li>
+<li><a href="https://medium.com/@tibor.hegedus/how-to-manipulating-data-before-validating-it-in-laravel-framework-6ffe9efef59d">How to manipulating data before validating it in Laravel Framework</a></li>
+<li><a href="https://medium.com/@Kaperskyguru/multiple-role-based-authentication-in-laravel-e79966205470">Multiple role-based authentication in Laravel – Solomon Eseme – Medium</a></li>
+<li><a href="https://medium.com/@flicher/must-have-visual-studio-code-extensions-for-laravel-1eab68cee82b">Must have Visual Studio Code Extensions for Laravel</a></li>
+</ul>
+<h3>API</h3>
+<ul>
+<li><a href="https://medium.freecodecamp.org/how-to-build-a-laravel-rest-api-with-test-driven-development-c4bb6417db3c">How to build a Laravel REST API with Test-Driven Development</a></li>
+<li><a href="https://github.com/stephenlake/laravel-properties">stephenlake/laravel-properties: Associate generic data to any other model without polluting your application model logic, for Laravel.</a></li>
+<li><a href="https://learninglaravel.net/best-practices-when-designing-apis-in-laravel-5">Best practices when designing APIs in Laravel 5 | Learning Laravel</a></li>
+<li><a href="https://docs.microsoft.com/ko-kr/azure/architecture/best-practices/api-design#organize-the-api-around-resources">API 디자인 지침 - Best practices for cloud applications | Microsoft Docs</a></li>
+<li><a href="https://m.blog.naver.com/PostView.nhn?blogId=huewu&amp;logNo=110101220171&amp;proxyReferer=https%3A%2F%2Fanster.tistory.com%2F163">[번역] RESTful Web Services: The Basics (1/2) : 네이버 블로그</a></li>
+<li><a href="https://reinink.ca/articles/server-side-apps-with-client-side-rendering">Server-side apps with client-side rendering - Jonathan Reinink</a></li>
+<li><a href="https://sheety.co/#response">Sheety - Turn your Google Sheet into an API</a></li>
+<li><a href="https://medium.com/@flicher/laravel-rest-api-passport-authentication-for-ionic-app-3934713bcdf7">Laravel Rest API Passport Authentication for Ionic App</a></li>
+<li><a href="https://medium.com/@JinoAntony/multi-user-api-authentication-using-laravel-jwt-8ae572b0c4cf">Multi-User API Authentication Using Laravel JWT – Jino Antony – Medium</a></li>
+<li><a href="https://medium.com/devopslinks/best-practices-of-designing-apis-in-laravel-e2264ad1c6ca">Best practices of designing APIs in Laravel – DevOpsLinks – Medium</a></li>
+<li><a href="https://medium.com/@khwsc1/js%EB%A1%9C-10%EB%B6%84%EB%A7%8C%EC%97%90-rest-api-graphql-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C%ED%95%98%EA%B8%B0-d28148dbdef2">코딩 없이 10분 만에 REST API/Graphql 서버 개발하기 – Hyeokwoo Alex Kwon – Medium</a></li>
+</ul>
+<h3>Service</h3>
+<ul>
+<li><a href="https://www.44bits.io/ko/post/why-should-i-use-docker-container">왜 굳이 도커(컨테이너)를 써야 하나요? - 컨테이너를 사용해야 하는 이유</a></li>
+<li><a href="https://breeze.sh/blog/article/laravel-with-docker-and-compose/">Getting Started With Docker: Running Laravel with Docker Compose | Breeze – Simple Deployments</a></li>
+<li><a href="http://raccoonyy.github.io/docker-usages-for-dev-environment-setup/">Docker (Compose) 활용법 - 개발 환경 구성하기</a></li>
+<li><a href="https://morioh.com/p/973852a137a1/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose">How To Set Up Laravel, Nginx, and MySQL with Docker Compose - Morioh</a></li>
+<li><a href="https://gomcine.tistory.com/entry/GitHub-%EB%8B%A8%EC%B6%95%ED%82%A4-%EB%B0%8F-%EC%82%AC%EC%9A%A9-%ED%8C%81-%EB%AA%87-%EA%B0%80%EC%A7%80-%EC%86%8C%EA%B0%9C">GitHub 단축키 및 사용 팁 정리</a></li>
+<li><a href="https://jinfactory.tistory.com/187">나를 구원해줄 그 분은 바로 git. 그리고 github</a></li>
+<li><a href="https://jojoldu.tistory.com/406">내가 추천하는 크롬 익스텐션 10선</a></li>
+<li><a href="https://zah.me/2019/01/10/execute-your-laravel-dusk-tests-on-docker-hub-ci/">Zaher Ghaibeh | Execute your Laravel Dusk tests on Docker HUB CI - Part 1</a></li>
+<li><a href="https://medium.com/@sukhovvu/laravel-5-7-docker-development-environment-apache-php-7-1-redis-elasticsearch-4418cec636b">Laravel 5.7 — Docker development environment (Apache, PHP 7.1, Redis, ElasticSearch)</a></li>
+</ul>
+<h2>Frontend</h2>
+<ul>
+<li><a href="https://github.com/lucaong/minisearch">lucaong/minisearch: Tiny but powerful fulltext search engine for browser and Node</a></li>
+<li><a href="https://github.com/tyroprogrammer/learn-react-app">tyroprogrammer/learn-react-app: Application that will help you learn React fundamentals. Install this application locally - there's tutorial, code snippets and exercises. The main objective of this project is to help you get off the ground with React!</a></li>
+<li><a href="https://cimfalab.github.io/deepscan/2016/08/code-review-1">JavaScript 코드 리뷰 - 코드 리뷰 문화 – 좋은 JavaScript 코드 작성을 위한 블로그</a></li>
+<li><a href="https://dev-yakuza.github.io/ko/blaboo/development-journal/">BlaBoo 앱 개발기(RN, React Native) - RN(React Native)를 사용하여 BlaBoo라는 앱을 제작해 보았습니다. 이 앱을 제작하면서 격은 내용을 정리해보려고 합니다.</a></li>
+<li><a href="https://environmentset.github.io/2019/02/13/Why-use-React/">왜 리액트를 쓰나요? | ENvironmentSet</a></li>
+<li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization?hl=ko">이미지 최적화  |  Web Fundamentals  |  Google Developers</a></li>
+<li><a href="https://jsdev.kr/t/http-2/4402">HTTP/2에서는 번들링을 잘게 쪼개는 것도 효율적인 방법이군요. - JavaScript - 자바스크립트 개발자 포럼</a></li>
+<li><a href="https://learnjavascript.online/">Learn JavaScript</a></li>
+<li><a href="https://medium.com/aha-official/%EC%95%84%ED%95%98-rest-api-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C-1-90b5da9e6593">아하 REST API 서버 개발 (1) – aha.official – Medium</a></li>
+<li><a href="https://morioh.com/p/5c248fc9ed31/build-a-progressive-web-app-in-vuejs">Build a Progressive Web App In VueJs - Morioh</a></li>
+<li><a href="https://www.notion.so/SCSS-Utilities-X-f70b5d4d1e4e4318b9072c642153f23d">SCSS Utilities X 치맥</a></li>
+<li><a href="https://subicura.com/2018/02/14/javascript-debugging.html">크롬 개발자 도구를 이용한 자바스크립트 디버깅</a></li>
+<li><a href="https://asfirstalways.tistory.com/m/362">[JS] JavaScript의 Event Loop</a></li>
+<li><a href="https://blog.usejournal.com/vue-js-best-practices-c5da8d7af48d">Vue.js best practices ✓ – Noteworthy - The Journal Blog</a></li>
+<li><a href="https://vuejsbook.com/rebuilding-my-blog-in-vue-part-1">Rebuilding My Blog in Vue - Part 1 | Vue.js Book</a></li>
+<li><a href="https://medium.com/javascript-scene/top-javascript-frameworks-and-topics-to-learn-in-2019-b4142f38df20">Top JavaScript Frameworks and Topics to Learn in 2019</a></li>
+<li><a href="https://medium.com/querypie/react%EB%A1%9C-%EB%A7%8C%EB%93%9C%EB%8A%94-electron-%EC%9B%B9-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83-antd-customization-817bb2cf1d4b">React로 만드는 Electron 웹 애플리케이션; 레이아웃, AntD Customization</a></li>
+<li><a href="https://medium.com/aha-official/%EC%95%84%ED%95%98-%ED%94%84%EB%A1%A0%ED%8A%B8-%EA%B0%9C%EB%B0%9C%EA%B8%B0-0-angular-react-vue-js-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC-%EC%84%A0%ED%83%9D-f797392118d0">아하 프론트 개발기(0)— Angular, React, Vue.js 프레임워크 선택 – aha.official – Medium</a></li>
+</ul>
+<h3>UI Design Kit</h3>
+<ul>
+<li><a href="http://fire.uxtheme.net/doc/index.html">Fire UI Kit- Live Documentation</a></li>
+<li><a href="https://demos.creative-tim.com/material-kit/index.html">Material Kit by Creative Tim</a></li>
+</ul>
+<h2>Design</h2>
+<ul>
+<li><a href="https://cantunsee.space/">Can't Unsee</a></li>
+<li><a href="https://www.canva.com/learn/website-color-schemes/">Website color schemes: 50 color palettes to inspire – Canva</a></li>
+<li><a href="https://brunch.co.kr/@thewatermelon/14">[디자이너J의 추천] 영감이 펑펑 솟는 디자인 레퍼런스</a></li>
+<li><a href="https://brunch.co.kr/@plusx/23?fbclid=IwAR0TZCCr4jPuwGd15hKgtHWYwxITZlYu3qrnSiRA3TcPYrXzen5bSq8-N4Q">3원칙. 페이지에 머무르게 하라</a></li>
+<li><a href="https://brunch.co.kr/@chulhochoiucj0/17">모바일 UI 디자인 기본 요소 - 색채 Color</a></li>
+<li><a href="https://brunch.co.kr/@roysday/213?fbclid=IwAR1kvpqrbqb8TPLI4C5iKuqcusun3PrmjWwYMaUcVO3hrCIrkQcSJl3pp_Y">흥미진진한 공공기관 디자인의 세계와 20개의 꿀팁</a></li>
+<li><a href="https://www.i-boss.co.kr/ab-6141-38741?utm_source=facebook&amp;utm_medium=social&amp;utm_campaign=media_info&amp;utm_term=jhkim&amp;utm_content=190128_jh_01&amp;ibfs=ZWI6ZY0C&amp;fbclid=IwAR0SDEOmV60rPcxiPdoGEndpHh2lfcS52SRUg9P2DB39JCBuuKKHAIEWlxg">콘텐츠 기획용 &amp; 제안서 ppt 삽입용 투명이미지 구하는 방법 &gt; 마케팅 &gt; 아이보스 : 온라인마케팅, 인터넷마케팅 커뮤니티</a></li>
+<li><a href="http://icunow.co.kr/case-study-club/">디자인과 관련된 매려적인 ‘케이스 스터디’를 할 수 있는 ‘Case Study Club’ – 지금 써보러 갑니다</a></li>
+<li><a href="https://contentsfree.com/%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%A0%9C%EC%9E%91-%EA%B0%80%EC%9D%B4%EB%93%9C/">랜딩페이지 올바른 이해와 제대로 만들기 위한 제작 가이드</a></li>
+<li><a href="https://www.creativebloq.com/design/designers-guide-golden-ratio-12121546">The designer's guide to the Golden Ratio | Creative Bloq</a></li>
+<li><a href="https://cssans.pro/?t=logo.corean.biz">CSSans Pro - The Colourful, Sassy, CSS Font</a></li>
+<li><a href="https://www.csswinner.com/details/eum-ray-portfolio/13276">Eum Ray portfolio - CSS Winner</a></li>
+<li><a href="https://designmodo.com/web-design-trends-2019/">Top 17 Web Design and UI Trends for 2019 - Designmodo</a></li>
+<li><a href="https://dribbble.com/stories/2019/02/15/7-useful-chrome-extensions-for-designers?ref=webdesignernews.com">7 Useful Chrome extensions for designers | Dribbble Design Blog</a></li>
+<li><a href="https://www.evernote.design/">All in One Bookmark Links for Designer - Evernote Design</a></li>
+<li><a href="https://freefrontend.com/css-page-transitions/">20 CSS Page Transitions</a></li>
+<li><a href="http://iconfont.io/iconfont/">iconfont | IconFont</a></li>
+<li><a href="https://medium.com/sketch-app-sources/6-awesome-but-subtle-features-in-sketch-53-4298884fea02">6 Awesome, but subtle Features in Sketch 53 – Design + Sketch – Medium</a></li>
+<li><a href="https://medium.com/nag-corporations/ui-ux-handbook-2019-edition-88fade548724">UI/UX Handbook 2019 Edition – Nag Corporations – Medium</a></li>
+<li><a href="https://m.blog.naver.com/PostView.nhn?blogId=zinblue&amp;logNo=221015027326&amp;proxyReferer=http%3A%2F%2Fm.facebook.com">왜 내가 만드는 건 이쁘게 보이지 않는 걸까? : 네이버 블로그</a></li>
+<li><a href="https://www.pentagram.com/work/slack">Slack — Pentagram</a></li>
+<li><a href="http://photoshopvip.net/113726">2019年のフォントはこれで決まり！トレンド対応の無料フリーフォント厳選60個まとめ - PhotoshopVIP</a></li>
+<li><a href="http://photoshopvip.net/113772">Webが進化中！参考にしたい話題の最新ウェブデザイン30個まとめ - PhotoshopVIP</a></li>
+<li><a href="http://photoshopvip.net/113962">ロゴデザインの配色見本！すぐに役立つカラーパレット15個まとめ - PhotoshopVIP</a></li>
+<li><a href="https://blog.usejournal.com/how-i-created-a-physical-sketch-panel-to-enhance-my-design-system-thinking-93de49c7b832">How I created a physical Sketch Panel to enhance my Design System thinking</a></li>
+<li><a href="https://webactually.com/2019/01/%EC%A4%91%EA%B4%84%ED%98%B8%EC%97%90%EC%84%9C-%ED%94%BD%EC%85%80%EB%A1%9C-2/">중괄호에서 픽셀로 - WebactuallyWebactually | 웹사이트를 만드는 사람들을 위한 온라인 정보</a></li>
+<li><a href="https://medium.com/@hooncho/%EB%82%98%EC%97%90%EA%B2%8C-%EB%A7%9E%EB%8A%94-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9D%B4%ED%95%91-%ED%88%B4-%EC%84%A0%ED%83%9D%ED%95%98%EA%B8%B0-da5b369445c6">나에게 맞는 프로토타이핑 툴 선택하기 – Hoon Cho – Medium</a></li>
+</ul>
+<h2>Reading</h2>
+<ul>
+<li><a href="https://brunch.co.kr/@imagineer/194">[번역] 코딩 공부 후 3개월 간 구직하며 배운 점</a></li>
+<li><a href="https://github.com/devJang/developer-roadmap">devJang/developer-roadmap: 2019년 웹 개발자가 되기 위한 로드맵</a></li>
+<li><a href="https://github.com/KMU-OSS-Laboratory">Open Source Software Laboratory, Kookmin University</a></li>
+<li><a href="https://rkdehddnr.com/posts/%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EA%B3%BC-%ED%85%8C%EC%8A%A4%ED%8A%B8/">함수형 프로그래밍과 테스트</a></li>
+<li><a href="https://www.sangkon.com/2018/08/27/good_books_for_dev_2018/?utm_source=gaerae.com&amp;utm_campaign=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%8A%A4%EB%9F%BD%EB%8B%A4&amp;utm_medium=social">내 마음대로 선정한 프로그래머 필독서 50선(20180827)</a></li>
+<li><a href="https://smcncad.com/463">2019년을 주도할 밀레니얼-Z세대 트렌드 키워드5</a></li>
+<li><a href="https://velog.io/@chris/%EB%B2%88%EC%97%AD-2018%EB%85%84-%EB%82%B4%EA%B0%80-%EB%AA%A8%EB%A5%B4%EB%8A%94-%EA%B8%B0%EC%88%A0%EB%93%A4-rnjr3h8mgj">2018년, 내가 모르는 기술들</a></li>
+</ul>
+<h3>Medium</h3>    ]]></content>
+</entry>
+            <entry>
+    <id>https://corean.github.io/blog/laravel-vue</id>
+    <link type="text/html" rel="alternate" href="https://corean.github.io/blog/laravel-vue" />
+    <title>Laravel + Vue look like SPA</title>
+    <published>2019-02-11T00:00:00+00:00</published>
+    <updated>2019-02-11T00:00:00+00:00</updated>
+    <author>
+        <name>corean</name>
+    </author>
+    <summary type="html">
+Server-side apps with client-side rendering - Jonathan Reinink
+
+blade 템플릿 + 각 기능별 vue 컴포넌트 : 너무 난해짐
+빈 html + 1개의 단일 vue 컴포넌트 : api가 많아짐
+vue 컴포넌트 모두 등록후
+controller에서......</summary>
+    <content type="html"><![CDATA[
+        <h1></h1>
+<p><a href="https://reinink.ca/articles/server-side-apps-with-client-side-rendering">Server-side apps with client-side rendering - Jonathan Reinink</a></p>
+<ol>
+<li>blade 템플릿 + 각 기능별 vue 컴포넌트 : 너무 난해짐</li>
+<li>빈 html + 1개의 단일 vue 컴포넌트 : api가 많아짐</li>
+<li>vue 컴포넌트 모두 등록후
+controller에서 response::make를 통해 app.blade.php에 사용할 컴포넌트 이름과 데이타(props)를 넘겨 주는 방식
+장점: API 없이 시작할 수 있다. 구조가 단순해진다.</li>
+</ol>
+<pre><code class="language-bash">// SPA처럼 작동하게 해준다.
+npm install --save-dev turbolinks</code></pre>
+<pre><code class="language-php">// AppServiceProvider::boot 등록  
+use Illuminate\View\Factory as ViewFactory;
+
+ViewFactory::macro('component', function ($name, $data = []) {
+    return View::make('app', ['name' =&gt; $name, 'data' =&gt; $data]);
+});</code></pre>
+<pre><code class="language-php+HTML">&lt;!-- app.blade.php --&gt;
+&lt;!DOCTYPE html&gt; 
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;link href="{{ mix('/css/app.css') }}" rel="stylesheet"&gt;
+    &lt;script src="{{ mix('/js/manifest.js') }}" defer&gt;&lt;/script&gt;
+    &lt;script src="{{ mix('/js/vendor.js') }}" defer&gt;&lt;/script&gt;
+    &lt;script src="{{ mix('/js/app.js') }}" defer&gt;&lt;/script&gt;
+    &lt;meta name="turbolinks-cache-control" content="no-cache"&gt;
+    &lt;!-- turbolinks 비활성화. 브라우저 이동시 vue 인스턴스를 만들어야함 --&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div id="app" data-component="{{ $name }}" data-props="{{ json_encode($data) }}"&gt;&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<pre><code class="language-php">// Controller
+$events = Event::oldest('start_date')
+    -&gt;get()
+    -&gt;map-&gt;only('id', 'title', 'start_date');
+
+return View::component('Events', ['events' =&gt; $events]);</code></pre>
+<pre><code class="language-javascript">// app.js
+import Vue from 'vue'
+
+// 모든 컴포넌트 등록
+const files = require.context('./', true, /\.vue$/i)
+files.keys().map(key =&gt; Vue.component(key.split('/').pop().split('.')[0], files(key).default))
+
+// Start Turbolinks
+require('turbolinks').start()
+
+// Boot the Vue component
+document.addEventListener('turbolinks:load', (event) =&gt; {
+    const root = document.getElementById('app')
+
+    if (window.vue) {
+        window.vue.$destroy(true)
+    }
+    //vue runtime만 사용
+    window.vue = new Vue({
+        render: h =&gt; h(
+            Vue.component(root.dataset.component), {
+                props: JSON.parse(root.dataset.props)
+            }
+        )
+    }).$mount(root)
+})</code></pre>
+<pre><code class="language-javascript">//webpack.mix.js - vue runtime만 사용
+mix.js('resources/js/app.js', 'public/js')
+   .sass('resources/sass/app.scss', 'public/css')
+   .extract(['vue', 'lodash', 'popper.js', 'axios'])
+   .webpackConfig({
+       resolve: {
+           alias: { 'vue$': 'vue/dist/vue.runtime.js' }
+       }
+   })
+   .version()</code></pre>    ]]></content>
+</entry>
+            <entry>
+    <id>https://corean.github.io/blog/vue</id>
+    <link type="text/html" rel="alternate" href="https://corean.github.io/blog/vue" />
+    <title>Vue Cleanup</title>
+    <published>2019-02-07T00:00:00+00:00</published>
+    <updated>2019-02-07T00:00:00+00:00</updated>
+    <author>
+        <name>corean</name>
+    </author>
+    <summary type="html">
+
+&lt;code&gt;v-bind:class=&quot;className&quot;&lt;/code&gt; = &lt;code&gt;:class=&quot;className&quot;&lt;/code&gt;
+&lt;code&gt;v-on:click=&quot;addName&quot;&lt;/code&gt; = &lt;code&gt;@click&quot;Addname&quot;&lt;/code&gt;
+&lt;code&gt;:class=&quot;{ &#039;isLoading&#039; : isLoading }&quot;&lt;/code&gt; 선택적 css. 데이타가 아닌 표현식은 {}......</summary>
+    <content type="html"><![CDATA[
+        <h1>Vue</h1>
+<h2>syntax</h2>
+<p><code>v-bind:class="className"</code> = <code>:class="className"</code></p>
+<p><code>v-on:click="addName"</code> = <code>@click"Addname"</code></p>
+<p><code>:class="{ 'isLoading' : isLoading }"</code> 선택적 css. 데이타가 아닌 표현식은 {}</p>
+<pre><code class="language-javascript">// 계산된 속성 (=데이타처럼 취급)
+computed: {
+    incompleteTasks() {
+        return this.tasks.filter(task =&gt; !task.completed );
+    },
+},</code></pre>
+<p>Vue.component는 vue instance 전에 나와야 함.</p>
+<p>named slot 사용</p>
+<pre><code class="language-vue">&lt;template slot="header"&gt;My Title&lt;/template&gt;
+&lt;slot name="header"&gt;&lt;/slot&gt;</code></pre>
+<h2>Error Message</h2>
+<p><code>Avoid mutating a prop directly since the value will be overwritten whenever the parent component re-renders. Instead, use a data or computed property based on the prop's value. Prop being mutated: "selected"</code></p>
+<p>props로 받은 상위 데이타는 직접 수정할수 없는. data()나 computed()속성을 이용해서 처리 할 것.</p>    ]]></content>
+</entry>
+            <entry>
     <id>https://corean.github.io/blog/use-query-for-remove-speical-char</id>
     <link type="text/html" rel="alternate" href="https://corean.github.io/blog/use-query-for-remove-speical-char" />
     <title>sql 줄바꿈 삭제</title>
